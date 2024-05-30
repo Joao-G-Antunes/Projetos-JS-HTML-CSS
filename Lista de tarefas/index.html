@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de tarefas</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaQuery.css">
 </head>
 <body>
     <div id="menu">
-        <h1></h1>
-    </div>
-    <div id="tasks">
-
+        <h1>To do list</h1>
+        <label for="iaddtask">
+            <input type="text" name="addtask" id="iaddtask" placeholder="Adicionar nova tarefa" onclick="">
+        </label>
+        <input id="buttonadd" type="button" value="Adicionar" onclick="">
+        <div id="tarefas">
+            <p></p><br>
+            <p>Sem tarefas até o momento...</p>
+        </div>
     </div>
 </body>
 </html>
